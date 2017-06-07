@@ -13,6 +13,8 @@
 		1FB65A091EE6A48500C119C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FB65A081EE6A48500C119C5 /* Assets.xcassets */; };
 		1FB65A0C1EE6A48500C119C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FB65A0A1EE6A48500C119C5 /* LaunchScreen.storyboard */; };
 		1FB65A171EE6A48500C119C5 /* PlayReachabilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB65A161EE6A48500C119C5 /* PlayReachabilityTests.swift */; };
+		1FB65A221EE6A76D00C119C5 /* AMReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB65A211EE6A76D00C119C5 /* AMReachability.swift */; };
+		1FB65A231EE6A76D00C119C5 /* AMReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB65A211EE6A76D00C119C5 /* AMReachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		1FB65A121EE6A48500C119C5 /* PlayReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FB65A161EE6A48500C119C5 /* PlayReachabilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayReachabilityTests.swift; sourceTree = "<group>"; };
 		1FB65A181EE6A48500C119C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB65A211EE6A76D00C119C5 /* AMReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMReachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 				1FB65A011EE6A48500C119C5 /* AppDelegate.swift */,
 				1FB65A031EE6A48500C119C5 /* ViewController.swift */,
 				1FB65A051EE6A48500C119C5 /* Main.storyboard */,
+				1FB65A211EE6A76D00C119C5 /* AMReachability.swift */,
 				1FB65A081EE6A48500C119C5 /* Assets.xcassets */,
 				1FB65A0A1EE6A48500C119C5 /* LaunchScreen.storyboard */,
 				1FB65A0D1EE6A48500C119C5 /* Info.plist */,
@@ -201,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB65A221EE6A76D00C119C5 /* AMReachability.swift in Sources */,
 				1FB65A041EE6A48500C119C5 /* ViewController.swift in Sources */,
 				1FB65A021EE6A48500C119C5 /* AppDelegate.swift in Sources */,
 			);
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB65A231EE6A76D00C119C5 /* AMReachability.swift in Sources */,
 				1FB65A171EE6A48500C119C5 /* PlayReachabilityTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
