@@ -1,0 +1,2 @@
+# ReachabilitySample
+Reachability.swiftのサンプルです。
