@@ -53,6 +53,7 @@ class ViewController: UIViewController {
                 
                 print("インターネット接続ありになった時の処理")
 
+                //Wifiであるかどうかも検出できる
                 if reachability.isReachableViaWiFi {
                     print("Reachable via WiFi")
                 } else {
@@ -73,6 +74,7 @@ class ViewController: UIViewController {
             }
         }
         
+        //通信状況の監視を開始
         do {
             try reachability.startNotifier()
         } catch {
